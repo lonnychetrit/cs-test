@@ -1,0 +1,36 @@
+{'users': [
+        {'key': 'user[
+                0
+            ].name', 'value': 'john'
+        },
+        {'key': 'user[
+                0
+            ].age', 'value': '23'
+        },
+        {'key': 'user[
+                0
+            ].city', 'value': 'barcelona'
+        },
+        {'key': 'user[
+                0
+            ].password', 'value': '5
+        ]L+J7rA*<7+:PO6'
+    },
+    {'key': 'user[
+            1
+        ].name', 'value': 'bob'
+    },
+    {'key': 'user[
+            1
+        ].age', 'value': '29'
+    },
+    {'key': 'user[
+            1
+        ].city', 'value': 'london'
+    },
+    {'key': 'user[
+            1
+        ].password', 'value': 'P=x&385YGMI0?!Is'
+    }
+]
+}
