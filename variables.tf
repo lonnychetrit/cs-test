@@ -1,7 +1,7 @@
 # Input variable definitions
 
 variable "users_filename" {
-  description = "User file name"
+  description = "Users file name"
   type        = string
   default     = "users.json"
 }
