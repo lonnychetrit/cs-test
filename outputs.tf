@@ -1,13 +1,13 @@
 # Output variable definitions
 
-# output "test1"{
-#   value = yamlencode(local.users_to_yaml)
-# }
+output "test1"{
+  value = yamlencode(local.users_to_yaml)
+}
 
-# output "sorted_test2"{
-#   value = jsonencode(local.sorted_test2)
-# }
+output "test2"{
+  value = local.sorted_users_by_city
+}
+output "passwords"{
+  value = local.checked_passwords
+}
 
-# output "unit_test"{
-#   value = local.unit_test
-# }

@@ -6,9 +6,9 @@ variable "users_filename" {
   default     = "users.json"
 }
 
-variable "unit_test" {
-  description = "User file name"
+variable "markdown_filename" {
+  description = "The filename of the markdown file that is going to be generated"
   type        = string
-  default     = "users.json"
+  default     = "users.md"
 }
 
