@@ -1,0 +1,44 @@
+{
+    "users": [
+        {
+            "name": "john",
+            "age": 23,
+            "city": "barcelona"
+        },
+        {
+            "name": "bob",
+            "age": 29,
+            "city": "london"
+        },
+        {
+            "name": "Jonny",
+            "age": 12,
+            "city": "barcelona"
+        },
+        {
+            "name": "boby",
+            "age": 12,
+            "city": "london"
+        },
+        {
+            "name": "lonny",
+            "age": 230,
+            "city": "barcelona"
+        },
+        {
+            "name": "lonny",
+            "age": 24,
+            "city": "barcelona"
+        },
+        {
+            "name": "Ariel",
+            "age": 15,
+            "city": "paris"
+        },
+        {
+            "name": "Ben",
+            "age": 26,
+            "city": "paris"
+        }
+    ]
+}
