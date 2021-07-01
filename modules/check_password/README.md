@@ -11,7 +11,7 @@ This terraform module receives a list of passwords and returns a dictionnary wit
 
 | Name | Description |
 |------|-------------|
-| <a name="output_passwords"></a> [passwords](#output\_passwords) | True if the password is secure and false if not |
+| <a name="output_passwords"></a> [passwords](#output\_passwords) | dictionnary with each password as key and a boolean as value (true if the password is secure and false if not) |
 
 ## Examples
 
