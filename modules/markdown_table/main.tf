@@ -12,9 +12,9 @@ locals{
     # Creating the table content
     table_data = [ for object in var.dictionnary_list: "|${join("|", [for key in var.header_titles: object[key]])}|"]
     # Concatenating all the table lines into a single list
-    readme_table = concat([local.header_titles_line], [local.alignment_line], local.table_data)
+    markdown_table = concat([local.header_titles_line], [local.alignment_line], local.table_data)
     # Adding breaklines after each row
-    readme_table_string = join("\n", local.readme_table)
+    markdown_table_string = join("\n", local.markdown_table)
 }
 
 

@@ -1,8 +1,7 @@
 # Input variable definitions
 
 variable "passwords" {
-  description = "Password to check"
+  description = "Passwords to check"
   type        = list(string)
-  default     = []
 }
 

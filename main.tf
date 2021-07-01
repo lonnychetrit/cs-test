@@ -108,8 +108,8 @@ locals {
     }]])
 }
 
-module "readme_table" {
-  source = "./modules/readme_table"
+module "markdown_table" {
+  source = "./modules/markdown_table"
   header_titles = ["name", "age", "city", "password"]
   column_alignment = ["left", "center", "left", "right"]
   dictionnary_list = local.table_to_convert_in_markdown
@@ -121,6 +121,6 @@ module "check_pwd" {
 }
 
 resource "local_file" "users_to_readme_table" {
-    content  = module.readme_table.readme_table_string
+    content  = module.markdown_table.markdown_table_string
     filename = var.markdown_filename
 }
