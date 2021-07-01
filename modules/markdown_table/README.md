@@ -5,7 +5,7 @@ This terraform module can be used to generate markdown table from a list of dict
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_column_alignment"></a> [column\_alignment](#input\_column\_alignment) | List of columns alignment (the column\_alignment length has to be the same than the header\_titles length) | `list(string)` | n/a | yes |
+| <a name="input_column_alignment"></a> [column\_alignment](#input\_column\_alignment) | List of columns alignment (the column\_alignment length has to be the same than the header\_titles length). Possible values ["left","center", "right"] | `list(string)` | n/a | yes |
 | <a name="input_dictionnary_list"></a> [dictionnary\_list](#input\_dictionnary\_list) | List of dictionnaries with which we want to create the README table | `list(map(any))` | n/a | yes |
 | <a name="input_header_titles"></a> [header\_titles](#input\_header\_titles) | List of keys that we want to be displayed in the markdown table (those keys will be used to generate the table header) | `list(string)` | n/a | yes |
 
