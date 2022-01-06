@@ -1,4 +1,4 @@
-# Content Square - Devops test
+# Devops test
 
 To run the terraform please run the following:
 ```
